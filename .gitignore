@@ -1,0 +1,94 @@
+# ==========================================
+# Idle Scrape - Google Maps Scraper
+# .gitignore for Open Source Project
+# ==========================================
+
+# Python Runtime
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.pytest_cache/
+.coverage
+*.pyc
+*.pyo
+
+# Virtual Environment (users create their own)
+venv/
+env/
+ENV/
+.venv/
+
+# Build Artifacts (users build from source)
+dist/
+build/
+*.spec.bak
+
+# Portable Builds (upload to GitHub Releases instead)
+*Portable/
+*.zip
+*.rar
+
+# IDE & Editor (personal preferences)
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# ==========================================
+# PROJECT SPECIFIC - User Data & Runtime
+# ==========================================
+
+# Scraper Cache & Data
+cache/
+*.csv
+*.xlsx
+*.xls
+companies_*.csv
+results_*.csv
+output_*.xlsx
+
+# Error Logs & Screenshots
+error_screenshot_*.png
+error_log.txt
+*.log
+scraper.log
+
+# Temporary Files
+*.tmp
+*.bak
+*~
+temp/
+
+# ChromeDriver (platform-specific, auto-downloaded)
+chromedriver.exe
+geckodriver.exe
+important_files/chromedriver_dir/*.exe
+important_files/chromedriver-extracted/
+
+# Sensitive Data (if any config with keys)
+*.key
+*.pem
+config.ini
+.env
+
+# ==========================================
+# KEEP THESE (Important for users)
+# ==========================================
+# !requirements.txt - Dependencies
+# !README.md - Documentation
+# !example-queries.txt - Example input
+# !docs/ - Documentation folder
+# !src/ - Source code
+# !assets/ - Icons and images
